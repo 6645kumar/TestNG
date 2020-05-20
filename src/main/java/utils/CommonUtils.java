@@ -31,7 +31,7 @@ public class CommonUtils {
     private String getChromeDriverPath() {
         String osName =  System.getProperty("os.name").toLowerCase();
         if (osName.contains("win")) {
-            return "/resources/drivers/win/chromedriver.exe";
+            return "/resources/drivers/windows/chromedriver.exe";
         }
         if (osName.contains("mac")){
             return "/resources/drivers/mac/chromedriver";
